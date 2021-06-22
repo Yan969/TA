@@ -6,4 +6,7 @@
 [转自：https://blog.csdn.net/u013889563/article/details/74476738](https://blog.csdn.net/u013889563/article/details/74476738)
 
 
-## https://catlikecoding.com/unity/tutorials/custom-srp/directional-shadows/
+## https://catlikecoding.com/unity/tutorials/custom-srp/directional-shadows/  
+
+## Shader 内发光、外发光
+[转载：https://blog.csdn.net/qq_38721111/article/details/89469827](https://blog.csdn.net/qq_38721111/article/details/89469827)
