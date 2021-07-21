@@ -11,3 +11,32 @@
 ## Shader 内发光、外发光
 [转载：https://blog.csdn.net/qq_38721111/article/details/89469827](https://blog.csdn.net/qq_38721111/article/details/89469827)  
 [转载：https://blog.csdn.net/wjj616806129/article/details/107642210](https://blog.csdn.net/wjj616806129/article/details/107642210)
+
+## UGUI Sprite图集（Atlas）中Shader渲染混乱
+【原因】图集的UV坐标范围为0-1，所以顶点UV存储的是该顶点在图集中的位置
+【解决】将单个图片的纹理坐标保存到uv1中，传递单个图片的纹理坐标和在图集中纹理坐标的比例关系。
+1.纹理坐标：
+using UnityEngine;
+using UnityEngine.UI;
+
+public class VertIndexAsUV1 : BaseMeshEffect
+{
+    public override void ModifyMesh(VertexHelper vh)
+    {
+        if (!IsActive())
+            return;
+
+        UIVertex vert = new UIVertex();
+        for (int i = 0; i < vh.currentVertCount; i++)
+        {
+            vh.PopulateUIVertex(ref vert, i);
+            vert.uv1.x = (i >> 1);
+            vert.uv1.y = ((i >> 1) ^ (i & 1));
+            vh.SetUIVertex(vert, i);
+        }
+    }
+}
+
+2.比例关系：
+[【【转载自：https://blog.csdn.net/akof1314/article/details/50428200】](https://blog.csdn.net/akof1314/article/details/50428200)
+
