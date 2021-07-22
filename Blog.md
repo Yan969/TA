@@ -38,5 +38,6 @@ public class VertIndexAsUV1 : BaseMeshEffect
 }
 
 2.比例关系：
-[【【转载自：https://blog.csdn.net/akof1314/article/details/50428200】](https://blog.csdn.net/akof1314/article/details/50428200)
+[【转载自：https://blog.csdn.net/akof1314/article/details/50428200】](https://blog.csdn.net/akof1314/article/details/50428200)
 
+[归一化uv坐标](https://blog.csdn.net/yinfourever/article/details/116452618)
