@@ -41,3 +41,6 @@ public class VertIndexAsUV1 : BaseMeshEffect
 [【转载自：https://blog.csdn.net/akof1314/article/details/50428200】](https://blog.csdn.net/akof1314/article/details/50428200)
 
 [归一化uv坐标](https://blog.csdn.net/yinfourever/article/details/116452618)
+
+## 内置管线Shader升级到URP
+![转载](https://www.jianshu.com/p/3fef69e2efb6)
