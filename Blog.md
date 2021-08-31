@@ -45,5 +45,6 @@ public class VertIndexAsUV1 : BaseMeshEffect
 ## 内置管线Shader升级到URP
 [转载](https://www.jianshu.com/p/3fef69e2efb6)
 
-## UE延迟渲染
+## 延迟渲染
 [转载： https://medium.com/@lordned](https://medium.com/@lordned)
+[转载：https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342](https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342)
