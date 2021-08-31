@@ -48,3 +48,4 @@ public class VertIndexAsUV1 : BaseMeshEffect
 ## 延迟渲染
 [转载： https://medium.com/@lordned](https://medium.com/@lordned)
 [转载：https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342](https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342)
+[转载：https://www.hiagodesena.com/blog/physically-based-deferred-renderer](https://www.hiagodesena.com/blog/physically-based-deferred-renderer)
